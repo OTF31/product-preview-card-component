@@ -1,13 +1,20 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { NativeBaseProvider, extendTheme } from "native-base";
-import reportWebVitals from "./reportWebVitals";
 
 import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
 const theme = extendTheme({
+  colors: {
+    DarkCyan: `hsl(158, 36%, 37%)`,
+    Cream: `hsl(30, 38%, 92%)`,
+    VeryDarkBlue: `hsl(212, 21%, 14%)`,
+    DarkGrayishBlue: `hsl(228, 12%, 48%)`,
+    White: `hsl(0, 0%, 100%)`,
+  },
   config: {
-    initialColorMode: "dark",
+    initialColorMode: "light",
   },
 });
 
