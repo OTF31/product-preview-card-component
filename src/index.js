@@ -1,8 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import { createRoot } from "react-dom/client";
 import { NativeBaseProvider, extendTheme } from "native-base";
 import reportWebVitals from "./reportWebVitals";
+
+import App from "./App";
 
 const theme = extendTheme({
   config: {
@@ -10,13 +11,12 @@ const theme = extendTheme({
   },
 });
 
-ReactDOM.render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NativeBaseProvider theme={theme}>
       <App />
     </NativeBaseProvider>
   </React.StrictMode>,
-  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
