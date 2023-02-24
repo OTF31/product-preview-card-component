@@ -4,6 +4,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ---
 
-[See in Github Pages](https://denisomarcuyottito.github.io/product-preview-card-component/)
+[See in Github Pages](https://OTF31.github.io/product-preview-card-component/)
 
 ![image](https://user-images.githubusercontent.com/75378049/190929829-0aa9ff57-dd87-4796-9f3d-c0c0441763eb.png)
